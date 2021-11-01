@@ -1,0 +1,558 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rabii/ontologies/2019/6/politicians"
+     xml:base="http://www.semanticweb.org/rabii/ontologies/2019/6/politicians"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rabii/ontologies/2019/6/politicians"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasChiefMinister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasChiefMinister">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isChiefMinsterOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ChiefMinister"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasCoucillar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasCoucillar">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfCouncil"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Councillar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasCoucillor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasCoucillor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMemberOfInstitution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasDeputyMinister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasDeputyMinister">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isDeputyMinsterOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#DeputyMinister"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasDistrict">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isDistrictOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Province"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#District"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMayor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMayor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMayorOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MunicipalCouncil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Mayor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMemberOfInstitution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMemberOfInstitution">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfInstitution"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMinister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMinister">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMinsterOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Minister"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasParliamentMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasParliamentMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasMemberOfInstitution"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfParliament"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Parliament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasPartyMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasPartyMember">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfParty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Party"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasPresident -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasPresident">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isPresdentOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#State"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#President"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasProvincialCouncil -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasProvincialCouncil">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isProvicialCouncilOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Province"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasProvincialMinistry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasProvincialMinistry">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isProvincialMinistryOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialMinistry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasSpeaker -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasSpeaker">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasHead"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isSpeakerOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Parliament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Speaker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isChiefMinsterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isChiefMinsterOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ChiefMinister"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isDeputyMinsterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isDeputyMinsterOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#DeputyMinister"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isDistrictOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isDistrictOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#District"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Province"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMayorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMayorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Mayor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MunicipalCouncil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfCouncil -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfCouncil">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfInstitution"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Councillar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfInstitution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfInstitution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfParliament -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfParliament">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfInstitution"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Parliament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfParty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMemberOfParty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Party"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMinsterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isMinsterOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Minister"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isPresdentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isPresdentOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#President"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isProvicialCouncilOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isProvicialCouncilOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Province"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isProvincialMinistryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isProvincialMinistryOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialMinistry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isSpeakerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isSpeakerOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#isHeadOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Speaker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Parliament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasBirthDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasBirthDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#hasLabel">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ChiefMinister -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ChiefMinister">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Councillar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Councillar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Councillar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#DeputyMinister -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#DeputyMinister">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#District -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#District"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LeftistParty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LeftistParty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Party"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Mayor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Mayor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Councillar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Minister -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Minister">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MunicipalCouncil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MunicipalCouncil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#OppositionLeader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#OppositionLeader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Parliament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Parliament">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Party -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Party"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#President -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#President">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PrimeMinister -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PrimeMinister">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Province -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Province"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialCuncil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#PoliticalInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialMinistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#ProvincialMinistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#RightistParty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#RightistParty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Party"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#RuralCouncil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#RuralCouncil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Speaker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Speaker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#MemberOfParliement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#StateMinistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#StateMinistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#Ministry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#UrbanCouncil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#UrbanCouncil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabii/ontologies/2021/10/untitled-ontology-2#LocalGovernementBody"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
